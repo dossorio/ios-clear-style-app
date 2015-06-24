@@ -14,6 +14,7 @@
 		0556A0D71B37F67100CBB706 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0556A0D51B37F67100CBB706 /* LaunchScreen.xib */; };
 		0556A0E31B37F67100CBB706 /* ios_clear_style_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0556A0E21B37F67100CBB706 /* ios_clear_style_appTests.swift */; };
 		0556A0F61B3933BB00CBB706 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0556A0F51B3933BB00CBB706 /* ToDoItem.swift */; };
+		0556A0FC1B3A8B8500CBB706 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0556A0FB1B3A8B8500CBB706 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		0556A0E11B37F67100CBB706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0556A0E21B37F67100CBB706 /* ios_clear_style_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_clear_style_appTests.swift; sourceTree = "<group>"; };
 		0556A0F51B3933BB00CBB706 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		0556A0FB1B3A8B8500CBB706 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				0556A0CC1B37F67100CBB706 /* AppDelegate.swift */,
 				0556A0CE1B37F67100CBB706 /* ViewController.swift */,
 				0556A0F51B3933BB00CBB706 /* ToDoItem.swift */,
+				0556A0FB1B3A8B8500CBB706 /* TableViewCell.swift */,
 				0556A0D01B37F67100CBB706 /* Main.storyboard */,
 				0556A0D31B37F67100CBB706 /* Images.xcassets */,
 				0556A0D51B37F67100CBB706 /* LaunchScreen.xib */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0556A0CF1B37F67100CBB706 /* ViewController.swift in Sources */,
+				0556A0FC1B3A8B8500CBB706 /* TableViewCell.swift in Sources */,
 				0556A0CD1B37F67100CBB706 /* AppDelegate.swift in Sources */,
 				0556A0F61B3933BB00CBB706 /* ToDoItem.swift in Sources */,
 			);

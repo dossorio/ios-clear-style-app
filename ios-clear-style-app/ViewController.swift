@@ -18,7 +18,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         tableView.dataSource = self
         tableView.delegate = self
-        tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.registerClass(TableViewCell.self, forCellReuseIdentifier: "cell")
         
         tableView.separatorStyle = .None
         tableView.rowHeight = 50.0
@@ -53,11 +53,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! TableViewCell
         
         let item = toDoItems[indexPath.row]
         
         cell.textLabel?.text = item.text
+        cell.textLabel?.backgroundColor = UIColor.clearColor()
         
         return cell
     }
